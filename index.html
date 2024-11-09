@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weekly Weather Forecast</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="weather-app">
+    <header>
+      <h1>Weather Forecast</h1>
+    </header>
+
+    <main>
+      <form id="search-form" class="search-bar">
+        <input type="text" id="search-input" class="search-input" placeholder="Enter a city" required>
+        <button type="submit" class="search-button">Search</button>
+      </form>
+
+      <div class="weather-info">
+        
+        <div id="highlighted-forecast" class="highlighted-forecast">
+        
+        </div>
+        <div id="weekly-forecast" class="forecast-container">
+          
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <p>
+        Coded by <span>Amanda</span>. Check it out on 
+        <a href="https://github.com/AmyInTech777/HowIsTheWeatherInYourCity" target="_blank">GitHub</a> 
+        and view it live on <a href="https://how-is-the-weather-in-your-city.vercel.app/" target="_blank">Vercel</a>.
+      </p>
+    </footer>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

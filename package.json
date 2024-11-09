@@ -1,0 +1,16 @@
+{
+    "name": "weather-forecast-app",
+    "version": "1.0.0",
+    "description": "A weekly weather forecast app that provides daily forecasts and weather icons.",
+    "main": "app.js",
+    "scripts": {
+      "start": "node app.js"
+    },
+    "dependencies": {
+      "node-fetch": "^3.0.0"
+    },
+    "keywords": ["weather", "forecast", "week", "api", "javascript"],
+    "author": "Amanda",
+    "license": "MIT"
+  }
+  
